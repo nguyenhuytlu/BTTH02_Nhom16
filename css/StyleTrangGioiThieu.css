@@ -194,7 +194,7 @@ body{
     color: black;
     height: 5331,34px;
     width: 1200px;
-    padding: 0 30px 50px 30px;
+    padding: 0 30px -9px 30px;
     display: block;
     transform: none;
     transition: all 0s ease 0s;
@@ -203,24 +203,7 @@ body{
 }
 
 .likeandshare{
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    line-height: 27px;
-    text-decoration: none solid black;
-    text-align: left;
-    word-spacing: 0px;
-    background-color: #FFFFFF;
-    background-position: 0% 0%;
-    color: black;
-    height: 35px;
-    width: 767px;
-    display: block;
-    transform: none;
-    transition: all 0s ease 0s;
-    box-sizing: border-box;
-    word-wrap: break-word; 
-    border-radius: 4px;
-    
+    padding-bottom: 30px;
 }
 
 .public4{
@@ -713,6 +696,8 @@ form-group
 #footer{
     height: 500px;
     background-color: rgb(48, 48, 170);
+    line-height: 45px;
+    font-weight: 600;
 }
 .footer-wrap{
     display: flex;
